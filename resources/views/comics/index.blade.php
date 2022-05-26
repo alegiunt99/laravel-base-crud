@@ -19,7 +19,7 @@
                     <img src="{{$comic->thumb}}" alt="">
 
                     <!-- titolo -->
-                    <h2>{{$comic->title}}</h2>
+                    <h2><a href="{{ route('comics.show', $comic->id) }}">{{$comic->title}}</a></h2>
 
                     <!-- prezzo -->
                     <p>{{$comic->price}}</p>

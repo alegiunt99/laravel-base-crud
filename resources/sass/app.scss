@@ -7,7 +7,9 @@
 }
 
 // general 
-
+body{
+    background-color: rgb(46, 46, 46);
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -15,6 +17,10 @@
 
 a{
     text-decoration: none;
+    color: white;
+    &:hover{
+        color: rgb(170, 170, 170);
+    }
 }
 
 h1{
@@ -22,7 +28,7 @@ h1{
 }
 // content
 .central-page{
-    background-color: rgb(46, 46, 46);
+    
     padding: 50px 0px;
     .container{
         display: flex;
@@ -50,6 +56,28 @@ h1{
                 font-size: 15px;
                 color: gray;
                 font-weight: 600;
+            }
+        }
+    }
+
+}
+
+.details-page{
+    padding: 50px 0px;
+    .container{
+        display: flex;
+        flex-wrap: nowrap;
+        column-gap: 181px;
+        .title-and-description{
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            .title{
+                color: white;
+            }
+
+            .description{
+                color: lightgray;
             }
         }
     }

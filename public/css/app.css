@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: rgb(46, 46, 46);
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -12,6 +16,11 @@
 
 a {
   text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(170, 170, 170);
 }
 
 h1 {
@@ -19,7 +28,6 @@ h1 {
 }
 
 .central-page {
-  background-color: rgb(46, 46, 46);
   padding: 50px 0px;
 }
 
@@ -54,5 +62,30 @@ h1 {
   font-size: 15px;
   color: gray;
   font-weight: 600;
+}
+
+.details-page {
+  padding: 50px 0px;
+}
+
+.details-page .container {
+  display: flex;
+  flex-wrap: nowrap;
+  -moz-column-gap: 181px;
+       column-gap: 181px;
+}
+
+.details-page .container .title-and-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.details-page .container .title-and-description .title {
+  color: white;
+}
+
+.details-page .container .title-and-description .description {
+  color: lightgray;
 }
 
