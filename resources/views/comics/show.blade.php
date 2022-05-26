@@ -31,7 +31,13 @@
 
             </div>
 
+            
         </div>
+
+        <div class="back">
+            <a href="{{ route('comics.index')}}"> BACK </a>
+        </div>
+        
         
     </div>
 

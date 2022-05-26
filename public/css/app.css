@@ -89,3 +89,18 @@ h1 {
   color: lightgray;
 }
 
+.details-page .back {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 15%;
+  margin: 68px auto;
+  background-color: gray;
+  border-radius: 8px;
+  padding: 9px;
+}
+
+.details-page .back a:hover {
+  color: rgb(70, 70, 70);
+}
+
