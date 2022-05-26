@@ -104,3 +104,30 @@ h1 {
   color: rgb(70, 70, 70);
 }
 
+.create-link {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.create-link a {
+  background-color: #5e5e5e;
+  padding: 5px 13px;
+  border-radius: 7px;
+}
+
+.create-page {
+  margin: 70px 0px;
+}
+
+.create-page .container .input-new {
+  margin-top: 20px;
+}
+
+.create-page .container .input-new label {
+  color: white;
+}
+
+.create-page .container button {
+  margin-top: 30px;
+}
+

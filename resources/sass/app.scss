@@ -100,3 +100,28 @@ h1{
     }
 
 }
+
+.create-link{
+    text-align: center;
+    margin-top: 26px;
+    a{
+        background-color: #5e5e5e;
+        padding: 5px 13px;
+        border-radius: 7px;
+    }
+}
+
+.create-page{
+    margin: 70px 0px;
+    .container{
+        .input-new{
+            margin-top: 20px;
+            label{
+                color: white;
+            }
+        }
+        button{
+            margin-top: 30px; 
+        }
+    }
+}

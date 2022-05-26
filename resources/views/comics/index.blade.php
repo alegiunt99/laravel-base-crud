@@ -39,7 +39,9 @@
             @endforelse
 
         </div>
-
+        <div class="create-link">
+            <a href="{{ route('comics.create')}}">NEW</a>
+        </div>
     </div>
     
 @endsection
