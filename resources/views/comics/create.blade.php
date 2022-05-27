@@ -19,8 +19,13 @@
                     </div>
 
                     <div class="input-new">
+                        <label for="thumb">Thumb: </label><br>
+                        <input type="text" name="thumb" id="">
+                    </div>
+
+                    <div class="input-new">
                         <label for="price">Prezzo:</label><br>
-                        <input type="number" name="price" id="">
+                        <input type="text" name="price" id="">
                     </div>
                     
                     <div class="input-new">
