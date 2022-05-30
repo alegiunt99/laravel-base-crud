@@ -125,3 +125,28 @@ h1{
         }
     }
 }
+
+.edit_btn{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    margin: 68px auto;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 9px;
+    a{
+        &:hover{
+                color: rgb(70, 70, 70);
+        }
+    }
+}
+
+#annulla{
+    margin-top: 24px;
+    background: gray;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+}

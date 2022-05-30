@@ -49,6 +49,8 @@
                     <input type="submit" value="Invia">
                 
                 </form>
+
+                <a id="annulla" href="{{ route('comics.show', $comic)}}">ANNULLA</a>
         </div>    
     </div>    
 

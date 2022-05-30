@@ -44,8 +44,10 @@
                     </div>
                     
                     <button type="submit" name="" id="">INVIA</button>
-                
+
                 </form>
+
+                <a id="annulla" href="{{ route('comics.index')}}">ANNULLA</a>
 
         </div>
 
