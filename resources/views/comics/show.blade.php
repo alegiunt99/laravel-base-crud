@@ -37,6 +37,10 @@
         <div class="back">
             <a href="{{ route('comics.index')}}"> BACK </a>
         </div>
+
+        <div class="edit_btn">
+            <a href="{{ route('comics.edit', $comic)}}"> EDIT </a>
+        </div>
         
         
     </div>
